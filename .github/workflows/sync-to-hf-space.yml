@@ -57,5 +57,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://saxenasm:$HF_TOKEN@huggingface.co/spaces/saxenasm/med_chat1 main
+          git push --force https://saxenasm:$HF_TOKEN@huggingface.co/spaces/saxenasm/med_chat1 main
+
 
